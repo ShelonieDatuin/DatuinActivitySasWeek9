@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Vehicle Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>🚗 Vehicle Dashboard</h1>
+
+    <div class="status-panel">
+      <p>Status: <span id="status">Stopped</span></p>
+      <p>Speed: <span id="speed">0</span> km/h</p>
+      <p>Fuel: <span id="fuel">100</span>%</p>
+    </div>
+
+    <div class="button-panel">
+      <button id="btnStart" class="btn start">Start Engine</button>
+      <button id="btnStop" class="btn stop">Stop Engine</button>
+      <button id="btnAccelerate" class="btn accelerate">Accelerate</button>
+      <button id="btnBrake" class="btn brake">Brake</button>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
